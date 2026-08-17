@@ -1,0 +1,316 @@
+/* common css start  */
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common css end  */
+
+/* header start  */
+    header {
+        padding: 40px 0;
+    }
+    .container {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    .logo {
+        float: left;
+        width: 13%;
+    }
+    .logo a {}
+    .logo a img{
+        width: 100%;
+    }
+
+    .menu {
+        float: right;
+        width: 65%;
+        margin: 11px 0;
+    }
+    .menu ul{
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li{
+        list-style: none;
+        float: left;
+
+    }
+    .menu ul li a{
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0 50px;
+        color: #626262;
+        transition: .33s linear;
+    }
+    .menu ul li:last-child a {
+        padding-right: 0;
+    }
+    .menu ul li a:hover {
+        color: #000000;
+    }
+/* header end  */
+/*hero start*/
+.hero{}
+.container{}
+.h_img{}
+.h_img img{
+    width: 100%;
+}
+/*hero end*/
+/*article start*/
+.article{
+    padding: 100px 0px;
+}
+.container2{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+.a_content{}
+.c_light{
+    margin: 0;
+    font-family: "ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 10px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 24px;
+}
+.c_link{
+    margin-top: 45px;
+    display: block;
+     color: #626262; 
+    text-decoration: none;
+}
+/*article end*/
+/*blog start*/
+.blog{
+    padding-bottom: 30px;
+}
+.single_blog{
+    margin-bottom: 70px;
+    box-sizing: border-box;
+    float: left;
+    width: 47%;
+}
+.images{
+    margin-bottom: 15px;
+}
+.images img{
+    width: 100%;
+}
+.single_blog:nth-child(odd){
+    margin-right: 60px;
+}
+/*blog end*/
+/*news start*/
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+/*blog end*/
+/*news start*/
+.signup{
+    text-align: center;
+}
+.s_h1{
+    color: #333333;
+   margin-top: 0;
+   margin-bottom: 70px;
+}
+.s_form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+} 
+.s_form input{
+    font-family: 'Playfair Display',serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top:15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+
+}
+.s_form button img{}
+/*news end*/
+/*blog2 start*/
+.blog2{
+    padding-top: 100px;
+}
+.load{
+     padding: 40px 0 80px;
+    text-align: center;
+}
+.load button{
+    padding: 18px 34px;
+    background-color: white;
+    border: 1px solid #626262;
+     font-family:'Playfair Display',serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: .33s linear;
+    cursor: pointer;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+/*blog2 end*/
+/*footer start*/
+footer{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 35px 0 40px;
+}
+footer .container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pages{
+     width: 35%;
+    float: left;
+}
+.pages ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.pages ul li{
+    list-style: none;
+    float: left;
+}
+.pages ul li a{
+    padding-right: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+.social{
+    width: 35%;
+    float: right;
+}
+.social ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.social ul li{
+    list-style: none;
+    float: left;
+}
+.social ul li span{
+     padding-right: 10px;
+    color: #000000;
+}
+.social ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+}
+.social ul li:last-child a{
+    padding-right: 0;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
